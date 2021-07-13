@@ -3,6 +3,7 @@
 body {
     font-family: 'Gloria Hallelujah', cursive;
     margin:0rem;
+    padding: 0rem;
     box-sizing: border-box;
 }
 
@@ -31,7 +32,7 @@ body {
 
 .container {
     width: 45%;
-    margin: 2vh auto;
+    margin: 20vh auto;
 }
 
 #txt-input {
@@ -73,3 +74,37 @@ body {
     padding:0 10rem;
 }
 
+@media /*(min-width: 320px) and*/ (max-width: 480px) /* Mobile */ {
+    body {
+        background-image: url(original.jpg);
+        background-size: auto;
+    }
+
+    .heading {
+        font-size: small;
+        padding: 1rem;
+    }
+
+    .container,
+    .center {
+        /* margin: 49vh auto; */
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    #input-area,
+    #output {
+        height: 100px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .container p {
+        margin: auto;
+    }
+
+    #con-btn {
+        display: block;
+        margin: 1rem auto;
+    }
+}
