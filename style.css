@@ -107,4 +107,6 @@ body {
         display: block;
         margin: 1rem auto;
     }
+    .footer .center{
+        text-align: center;
 }
